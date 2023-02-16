@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Calculator</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header><h1>Money Master💰 </h1></header>
+    <section>
+        <div></div>
+
+        <div class="calculator-area">
+        <h3>Income</h3>
+        Income: <input type="text" name="" id="income-field"> <br><br>
+
+        <h3>Expenses</h3>
+        Food:    <input type="text" name="" id="food-field"><br><br>
+        Rent:    <input type="text" name="" id="rent-field"><br><br>
+        Clothes: <input type="text" name="" id="clothes-field"><br><br>
+
+        <button class="btn-primary" id="btn-calculate">Calculate</button><br><br>
+
+       <h3>Total Expenses: <span id="total-expense">000</span></h3>
+       <h3>Balance: <span id="balance">00</span></h3>
+       
+       <div>
+        save: <input type="text" name="" id="save-field">  % <button class="btn-primary" id="btn-save">Save</button>
+       </div>
+
+       <h3>Saving Amount: <span id="saving-amount">00</span></h3>
+       <h3>Remaining Balance: <span id="remaining-balance">00</span></h3>
+
+        </div>
+    </section>
+    <script src="js/calculate.js"></script>
+</body>
+</html>

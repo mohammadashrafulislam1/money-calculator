@@ -1,0 +1,44 @@
+body{
+    font-family: poppins;
+}
+h1{
+    font-style: normal;
+    color: rgb(0, 183, 255);
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+.calculator-area{
+    background-color: #F8F8F8;
+    width: 75%;
+    text-align: center;
+    margin:auto;
+    padding: 30px;
+}
+.btn-primary{
+    padding: 10px 20px;
+    background-color: rgb(0, 183, 255);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+}
+input{
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+#rent-field, #food-field{
+    margin-left: 30px;
+}
+#clothes-field{
+    margin-left: 5px;
+}
+#income-field{
+    margin-left: 15px;
+}
+#save-field{
+    margin: 0 10px;
+}
+#btn-save{
+    margin-left: 10px;
+}
